@@ -1,9 +1,10 @@
 const JsxIntro = () => {
     return <div>
-            <p class="test">Параграф 1</p>
-            <p class="test">Параграф 2</p>
-            <p class="test">Параграф 3</p>
-        </div>
+        <p class="123">abc</p>
+        <p class="234">abc</p>
+        <p class="345">abc</p>
+        <p class="456">abc</p>
+    </div>
 }
 
 export default JsxIntro
