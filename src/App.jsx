@@ -3,14 +3,36 @@ import ReturningNested from "./08-ReturningNested";
 import ReturningDown from "./09-ReturningDown";
 import ReturningSeveral from "./10-ReturningSeveral";
 import ReturningUnclosed from "./11-ReturningUnclosed";
+import ReturningEmpty from "./12-ReturningEmpty";
+import VariablesInserting from "./13-VariablesInserting";
+import VariablesNuances from "./14-VariablesNuances";
+import VariablesArrays from "./15-VariablesArrays";
+import VariablesObjects from "./16-VariablesObjects";
+import VariablesAttributes from "./17-VariablesAttributes";
+import TagsIntro from "./18-TagsIntro";
+import TagsSeveral from "./19-TagsSeveral";
+import TagsMultiLine from "./20-TagsMultiLine";
+import TagsReturn from "./21-TagsReturn";
 
 const App = () => {
   return <div>
-    {/* <JsxIntro />
+    <JsxIntro />
     <ReturningNested />
     <ReturningDown />
-    <ReturningSeveral /> */}
+    <ReturningSeveral />
     <ReturningUnclosed />
+    <ReturningEmpty />
+    <VariablesInserting />
+    <VariablesNuances />
+    <VariablesArrays />
+    <VariablesObjects />
+    <VariablesAttributes />
+    <TagsIntro />
+    <TagsSeveral />
+    <TagsMultiLine />
+    <TagsReturn />
+    
+
   </div>
 }
 
