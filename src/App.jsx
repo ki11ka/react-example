@@ -13,6 +13,10 @@ import TagsIntro from "./18-TagsIntro";
 import TagsSeveral from "./19-TagsSeveral";
 import TagsMultiLine from "./20-TagsMultiLine";
 import TagsReturn from "./21-TagsReturn";
+import FunctionsHandlers from "./33-FunctionsHandlers";
+import FunctionsHandlersParams from "./34-FunctionsHandlersParams";
+import FunctionsEventObject from "./35-FunctionsEventObject";
+import FunctionsEventObjectParams from "./36-FunctionsEventObjectParams";
 
 const App = () => {
   return <div>
@@ -31,6 +35,10 @@ const App = () => {
     <TagsSeveral />
     <TagsMultiLine />
     <TagsReturn />
+    <FunctionsHandlers />
+    <FunctionsHandlersParams />
+    <FunctionsEventObject />
+    <FunctionsEventObjectParams />
     
 
   </div>
