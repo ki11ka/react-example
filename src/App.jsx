@@ -17,6 +17,12 @@ import FunctionsHandlers from "./33-FunctionsHandlers";
 import FunctionsHandlersParams from "./34-FunctionsHandlersParams";
 import FunctionsEventObject from "./35-FunctionsEventObject";
 import FunctionsEventObjectParams from "./36-FunctionsEventObjectParams";
+import StatesBooleanValue from "./54-StatesBooleanValue";
+import StatesCounter from "./55-StatesCounter";
+import FormsInputIntro from "./56-FormsInputIntro";
+import FormsInputOutput from "./57-FormsInputOutput";
+import FormsInputFunction from "./58-FormsInputFunction";
+import FormsInputSeveral from "./59-FormsInputSeveral";
 
 const App = () => {
   return <div>
@@ -39,6 +45,12 @@ const App = () => {
     <FunctionsHandlersParams />
     <FunctionsEventObject />
     <FunctionsEventObjectParams />
+    <StatesBooleanValue />
+    <StatesCounter />
+    <FormsInputIntro />
+    <FormsInputOutput />
+    <FormsInputFunction />
+    <FormsInputSeveral />
     
 
   </div>
