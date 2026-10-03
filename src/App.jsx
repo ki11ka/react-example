@@ -28,42 +28,50 @@ import FormsSelectIntro from "./64-FormsSelectIntro";
 import FormsSelectArray from "./65-FormsSelectArray";
 import FormsSelectValue from "./66-FormsSelectValue";
 import FormsSelectArrayValue from "./67-FormsSelectArrayValue";
+import DataArrayOperations from "./74-DataArrayOperations";
+import DataObjectsArrayAdding from "./75-DataObjectsArrayAdding";
+import DataObjectsArrayOperations from "./76-DataObjectsArrayOperations";
+import DataShowing from "./77-DataShowing";
 
 const App = () => {
-  return <div>
-    <JsxIntro />
-    <ReturningNested />
-    <ReturningDown />
-    <ReturningSeveral />
-    <ReturningUnclosed />
-    <ReturningEmpty />
-    <VariablesInserting />
-    <VariablesNuances />
-    <VariablesArrays />
-    <VariablesObjects />
-    <VariablesAttributes />
-    <TagsIntro />
-    <TagsSeveral />
-    <TagsMultiLine />
-    <TagsReturn />
-    <FunctionsHandlers />
-    <FunctionsHandlersParams />
-    <FunctionsEventObject />
-    <FunctionsEventObjectParams />
-    <StatesBooleanValue />
-    <StatesCounter />
-    <FormsInputIntro />
-    <FormsInputOutput />
-    <FormsInputFunction />
-    <FormsInputSeveral />
-    <CheckboxConditionalRendering />
-    <FormsSelectIntro />
-    <FormsSelectArray />
-    <FormsSelectValue />
-    <FormsSelectArrayValue />
-    
-
-  </div>
+  return (
+    <div>
+      <JsxIntro />
+      <ReturningNested />
+      <ReturningDown />
+      <ReturningSeveral />
+      <ReturningUnclosed />
+      <ReturningEmpty />
+      <VariablesInserting />
+      <VariablesNuances />
+      <VariablesArrays />
+      <VariablesObjects />
+      <VariablesAttributes />
+      <TagsIntro />
+      <TagsSeveral />
+      <TagsMultiLine />
+      <TagsReturn />
+      <FunctionsHandlers />
+      <FunctionsHandlersParams />
+      <FunctionsEventObject />
+      <FunctionsEventObjectParams />
+      <StatesBooleanValue />
+      <StatesCounter />
+      <FormsInputIntro />
+      <FormsInputOutput />
+      <FormsInputFunction />
+      <FormsInputSeveral />
+      <CheckboxConditionalRendering />
+      <FormsSelectIntro />
+      <FormsSelectArray />
+      <FormsSelectValue />
+      <FormsSelectArrayValue />
+      <DataArrayOperations />
+      <DataObjectsArrayAdding />
+      <DataObjectsArrayOperations />
+      <DataShowing />
+    </div>
+  );
 }
 
 export default App;
