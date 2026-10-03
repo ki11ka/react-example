@@ -23,6 +23,11 @@ import FormsInputIntro from "./56-FormsInputIntro";
 import FormsInputOutput from "./57-FormsInputOutput";
 import FormsInputFunction from "./58-FormsInputFunction";
 import FormsInputSeveral from "./59-FormsInputSeveral";
+import CheckboxConditionalRendering from "./63-CheckboxConditionalRendering";
+import FormsSelectIntro from "./64-FormsSelectIntro";
+import FormsSelectArray from "./65-FormsSelectArray";
+import FormsSelectValue from "./66-FormsSelectValue";
+import FormsSelectArrayValue from "./67-FormsSelectArrayValue";
 
 const App = () => {
   return <div>
@@ -51,6 +56,11 @@ const App = () => {
     <FormsInputOutput />
     <FormsInputFunction />
     <FormsInputSeveral />
+    <CheckboxConditionalRendering />
+    <FormsSelectIntro />
+    <FormsSelectArray />
+    <FormsSelectValue />
+    <FormsSelectArrayValue />
     
 
   </div>
